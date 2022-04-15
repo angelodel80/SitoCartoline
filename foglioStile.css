@@ -63,7 +63,7 @@
       font-family: Helvetica;
       font-size: 90%;
       display: inline-block;
-      margin-left: 50px;
+      margin-left: 20px;
       margin-right: 10px;
       margin-top: auto;
       letter-spacing: 1.5px;
@@ -80,7 +80,7 @@
   }
   
   #ImgMenu{
-     width: 300px;
+     width: 400px;
      margin-left: 10px;
   }
 
@@ -118,6 +118,15 @@
     font-family: Helvetica;
     font-size: 15px;
     letter-spacing: 0.5px;
+  } 
+
+  a {
+    text-decoration: none;
+    color: black; 
+  }
+
+  a:visited {
+    color:black;
   } 
 
   #dialog{
@@ -836,6 +845,36 @@ span.span_info{
 @media only screen and (max-width: 480px) {
   .container{
       margin-left: 20%;
+  }
+}
+
+@media only screen and (max-width: 914px) {
+  .container{
+      margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container{
+      margin-left: 15%;
+  }
+}
+
+@media only screen and (max-width: 1134px) {
+  .container{
+      margin-left: 5%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .container{
+      margin-left: 12%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .container{
+      margin-left: 9%;
   }
 }
 
